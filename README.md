@@ -1,5 +1,7 @@
 # my-vim-config
-A minimal vim config with simple shortcut keys used for rust
+A minimal vim config with simple shortcut keys used for rust.
+fast, simple, less than 100 lines.
+
 - lsp support
 - fuzzy finder
 - nord theme
