@@ -14,7 +14,8 @@ fast, simple, less than 100 lines.
 
 key maps you can change if you want:
 
-`let mapleader = " "
+```
+let mapleader = " "
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 nmap <leader>ff :Files<cr>
@@ -23,4 +24,5 @@ nnoremap <leader>t :NERDTreeFocus<CR>
 noremap <leader>v :botright vertical terminal<CR>
 nmap <leader>n :bnext<CR>
 nmap <leader>b :Buffers<cr>
-nmap <leader>mf :GFiles<cr>`
+nmap <leader>mf :GFiles<cr>
+```
