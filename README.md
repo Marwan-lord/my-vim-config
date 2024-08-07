@@ -12,7 +12,7 @@ fast ✨, simple 💤, less than 100 lines.
 ![screenshot here !](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim.png)
 ![screenchot](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim2.png)
 
-key maps you can change if you want:
+**key maps you can change if you want**:
 
 ```vim script
 let mapleader = " "
@@ -25,4 +25,21 @@ noremap <leader>v :botright vertical terminal<CR>
 nmap <leader>n :bnext<CR>
 nmap <leader>b :Buffers<cr>
 nmap <leader>mf :GFiles<cr>
+```
+**all the plugins and you can add more**: 
+
+```vim script
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'itchyny/lightline.vim'
+Plug 'nordtheme/vim'
+Plug 'tribela/vim-transparent'
+Plug 'preservim/nerdtree'
+Plug 'LunarWatcher/auto-pairs'
+Plug 'preservim/nerdcommenter'
+Plug 'rust-lang/rust.vim'
+call plug#end()
 ```
