@@ -6,3 +6,4 @@ A minimal vim config with simple shortcut keys used for rust
 - plugin manager
 
 ![screenshot here !](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim.png)
+![screenchot](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim2.png)
