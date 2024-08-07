@@ -14,7 +14,7 @@ fast, simple, less than 100 lines.
 
 key maps you can change if you want:
 
-```
+```vim script
 let mapleader = " "
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
