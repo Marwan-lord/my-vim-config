@@ -1,13 +1,13 @@
 # my-vim-config
-A minimal vim config with simple shortcut keys used for rust.
+A minimal vim config with simple shortcut keys used for rust 🦀.
 
 fast ✨, simple 💤, less than 100 lines.
 
-- lsp support: coc
-- fuzzy finder: fzf
-- theme: nord
-- plugin manager: plug
-- file tree: nerd tree
+- **lsp support**: coc
+- **fuzzy finder**: fzf
+- **theme**: nord
+- **plugin manager**: plug
+- **file tree**: nerd tree
 
 ![screenshot here !](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim.png)
 ![screenchot](https://github.com/Marwan-lord/my-vim-config/blob/main/images/vim2.png)
